@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= person.name %>'s Profile</title>
+    <link rel="stylesheet" href="assets/styles.css">
+</head>
+
+<body>
+    <% include ../partials/nav.ejs %>
+    <h1>Welcome to Profile of <%= person %>  </h1>
+    <p> <strong>Age: <%= data.age %> </strong> </p>
+    <p> <strong>Job: <%= data.job %> </strong> </p>
+    <hr>
+    <h2>Hobbies</h2>
+    <hr>
+    <ul>
+        <% data.hobbies.forEach((item) =>{ %>
+            <li> <%= item %> </li>
+        <% }); %>
+    </ul>
+
+</body>
+
+</html>

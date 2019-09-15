@@ -1,0 +1,19 @@
+{
+  "name": "nodejsproject",
+  "version": "1.0.0",
+  "description": "My Node Js Learning Files",
+  "main": "nodejsproject.js",
+  "dependencies": {
+    "body-parser": "1.19.0",
+    "ejs": "2.6.2",
+    "express": "^4.17.1",
+    "formidable": "1.2.1",
+    "upper-case": "1.1.3"
+    ,"nodemailer": "6.3.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
