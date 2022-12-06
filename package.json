@@ -4,9 +4,9 @@
   "description": "My Node Js Learning Files",
   "main": "nodejsproject.js",
   "dependencies": {
-    "body-parser": "1.19.0",
+    "body-parser": "1.20.1",
     "ejs": "2.6.2",
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "formidable": "1.2.1",
     "upper-case": "1.1.3"
     ,"nodemailer": "6.3.0"
